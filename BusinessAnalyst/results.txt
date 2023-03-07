@@ -1,0 +1,10 @@
+.
+
+User Stories:
+1. As an engineer, I need to be able to build Docker containers for the Rasa chatbot with all the necessary dependencies and configuration files.
+2. As an engineer, I need to be able to test the Docker containers locally to ensure the chatbot functions as expected.
+3. As an engineer, I need to be able to push the Docker containers to a Docker registry such as Docker Hub or AWS ECR.
+4. As an engineer, I need to be able to set up the necessary AWS infrastructure such as VPC, subnets, security groups, and IAM roles.
+5. As an engineer, I need to be able to deploy the Docker containers to AWS using the appropriate ECS or EKS resources and configurations.
+6. As an engineer, I need to be able to test the deployed Rasa chatbot in the production environment to ensure it functions as expected.
+7. As an engineer, I need to be able to document the deployment process and share it with the team for future reference.

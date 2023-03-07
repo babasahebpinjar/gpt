@@ -1,0 +1,26 @@
+Requirement: Deploy Rasa chatbot on Docker and AWS
+
+Background:
+Our company has developed a Rasa chatbot for customer support, and we need to deploy it to a production environment. We have decided to use Docker containers to ensure consistency and portability across environments, and AWS as our cloud provider to ensure scalability and reliability.
+
+Scope:
+This requirement covers the deployment of the Rasa chatbot on Docker and AWS, as well as the necessary infrastructure and configuration.
+
+Acceptance Criteria:
+
+The Rasa chatbot is deployed on Docker containers, with separate containers for the Rasa server and action server.
+The Docker containers are built using a Dockerfile that includes all the necessary dependencies and configuration files.
+The Docker containers are tested locally to ensure that the chatbot functions as expected.
+The Docker containers are pushed to a Docker registry, such as Docker Hub or AWS ECR.
+The Rasa chatbot is deployed on AWS using ECS (Elastic Container Service) or EKS (Elastic Kubernetes Service).
+The necessary AWS infrastructure, such as VPC, subnets, security groups, and IAM roles, are set up.
+The Docker containers are deployed to AWS using the appropriate ECS or EKS resources and configurations.
+The deployed Rasa chatbot is tested to ensure that it functions as expected in the production environment.
+The deployment process is documented and shared with the team for future reference.
+Dependencies:
+
+A working Rasa chatbot with trained models and actions.
+Docker installed on the deployment machine.
+Access to a Docker registry, such as Docker Hub or AWS ECR.
+An AWS account with permissions to create and manage necessary resources.
+Knowledge of Docker, AWS, and Rasa deployment and configuration

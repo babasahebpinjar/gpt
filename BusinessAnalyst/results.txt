@@ -1,10 +1,7 @@
-.
-
-User Stories:
-1. As an engineer, I need to be able to build Docker containers for the Rasa chatbot with all the necessary dependencies and configuration files.
-2. As an engineer, I need to be able to test the Docker containers locally to ensure the chatbot functions as expected.
-3. As an engineer, I need to be able to push the Docker containers to a Docker registry such as Docker Hub or AWS ECR.
-4. As an engineer, I need to be able to set up the necessary AWS infrastructure such as VPC, subnets, security groups, and IAM roles.
-5. As an engineer, I need to be able to deploy the Docker containers to AWS using the appropriate ECS or EKS resources and configurations.
-6. As an engineer, I need to be able to test the deployed Rasa chatbot in the production environment to ensure it functions as expected.
-7. As an engineer, I need to be able to document the deployment process and share it with the team for future reference.
+1. As a developer, I want to be able to create Docker containers for the Rasa server and action server so that I can deploy the chatbot in a consistent and portable way.
+2. As a developer, I want to be able to test the Docker containers locally to make sure the chatbot functions as expected.
+3. As a developer, I want to be able to push the Docker containers to a Docker registry so that they can be deployed to the production environment.
+4. As a developer, I want to be able to set up the necessary AWS infrastructure, such as VPC, subnets, security groups, and IAM roles, so that the chatbot can be deployed to AWS.
+5. As a developer, I want to be able to deploy the Docker containers to AWS using the appropriate ECS or EKS resources and configurations so that the chatbot can be used in the production environment.
+6. As a developer, I want to be able to test the deployed Rasa chatbot in the production environment to make sure it functions as expected.
+7. As a developer, I want to be able to document the deployment process so that it can be shared with the team for future reference.

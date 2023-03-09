@@ -1,0 +1,66 @@
+version: '3.1'
+intents:
+- bot_challenge
+- continue
+- didnt_understand
+- dont_remember
+- goodbye
+- greeting
+- greeting_response
+- greeting_response_not_well
+- greeting_response_with_question
+- no
+- repeat
+- reschedule
+- speak_with_human
+- who_is_there
+- yes
+
+entities:
+- greeted
+- location
+
+slots:
+  greeted:
+    type: bool
+    initial_value: false
+    mappings:
+    - type: from_intent
+      intent: greeting
+      value: true
+  location:
+    type: text
+    mappings:
+    - type: from_intent
+      intent: greeting
+      value: New York
+responses:
+  utter_greet:
+  - text: Hey! How are you?
+  - text: Hello, how do you do
+  utter_cheer_up:
+  - text: 'Here is something to cheer you up:'
+    image: https://i.imgur.com/nGF1K8f.jpg
+  utter_did_that_help:
+  - text: Did that help you?
+  utter_happy:
+  - text: Great, carry on!
+  utter_goodbye:
+  - text: Bye
+  utter_iamabot:
+  - text: I am a bot, powered by Rasa.
+  utter_didnt_understand:
+  - text: I didn't understand. You can try rephrasing
+  - text: Can you reword your statement? I'm not understanding.
+  - text: I didn't get your meaning.
+  utter_welcome_back:
+  - text: Nice to see you again!
+actions:
+- action_greet
+- action_goodbye
+- action_set_slot_values_from_json
+- action_retrieve_slots
+- action_book_flight
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: false

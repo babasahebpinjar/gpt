@@ -1,0 +1,25 @@
+version: "3.1"
+
+stories:
+
+  
+# - story: interactive_story_1
+#   steps:
+#   - intent: greeting
+#   - action: action_greet
+#   - intent: greeting
+#   - slot_was_set:
+#     - greeted: true
+#   - action: action_greet
+
+
+
+- story: interactive_story_1
+  steps:
+  - intent: greeting
+  - slot_was_set:
+    - greeted: true
+  - slot_was_set:
+    - location: New York high
+  - action: action_book_flight
+    #input_channel: json

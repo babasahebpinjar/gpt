@@ -17,6 +17,7 @@ prompt = "Can you give me user stories for the requirement: and number them" +  
 #prompt = sys.argv[1]
 openai.api_key = os.environ['api_key']
 #export api_key=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
+#export api_key=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
 completions = openai.Completion.create(
     engine="text-davinci-003",
     prompt=prompt,

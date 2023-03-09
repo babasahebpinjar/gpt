@@ -1,0 +1,145 @@
+version: "3.1"
+nlu:
+- intent: continue
+  examples: |
+    - forget it let's start
+    - it's okay lets start
+    - let's continue
+    - no it's fine let's continue
+    - we can continue
+- intent: didnt_understand
+  examples: |
+    - Sorry! I am having trouble in understanding you
+    - Sorry! I did not hear you. Please speak loudly.
+    - cannot understand you
+- intent: dont_remember
+  examples: |
+    - i dont know
+    - well i dont remember this
+    - sorry i can not recall
+    - i do not remember
+- intent: greeting
+  examples: |
+    - hey there
+    - yeah speaking
+    - hello
+    - hello there
+    - hi
+- intent: greeting_response
+  examples: |
+    - I am fine thank you
+    - i am good
+    - better
+    - fine
+    - good
+    - I am alright
+- intent: greeting_response_not_well
+  examples: |
+    - have headache
+    - had a bad day
+    - feeling tired
+    - feeling sick
+    - body pain
+    - I am not happy
+    - I am sick
+    - not doing so well
+    - not feeling great today
+    - not good
+    - not well
+- intent: greeting_response_with_question
+  examples: |
+    - all fine you tell
+    - I am great what about you
+    - I am doing well how are you
+    - i am doing good, how are you
+    - all good you say wass up
+- intent: no
+  examples: |
+    - not really
+    - no way
+    - not this time
+    - not now
+    - not here actually
+    - no thanks
+    - nope
+    - no not available
+    - no indeed
+    - Noo
+    - naah
+    - most certainly not
+    - definitely not
+    - can we please do it later?
+    - absolutely not
+- intent: repeat
+  examples: |
+    - Can you please rephrase
+    - Pardon
+    - repeat
+    - please say that again
+    - i am sorry what
+    - I beg your pardon
+    - i could not hear that
+    - I did not understand
+    - I didn't get it
+    - kindly repeat
+    - can you please repeat
+    - I am sorry
+- intent: reschedule
+  examples: |
+    - Can we do it later?
+    - Now is not a good time
+    - Not right now
+    - Iam sorry
+    - Iam on another call
+    - Iam busy
+    - I can't do it right now
+    - Can you call me later?
+    - Can we reschedule?
+- intent: speak_with_human
+  examples: |
+    - Can I speak with a human
+    - Could you please connect me to a human
+    - I dont speak with bots
+    - connect me to an executive
+    - go away bot
+- intent: who_is_there
+  examples: |
+    - who are you?
+    - who is this?
+    - do i know you?
+- intent: yes
+  examples: |
+    - sure give me call
+    - definitely
+    - I agree
+    - I see
+    - I understand
+    - let's start
+    - ok
+    - sounds good
+    - speaking
+    - sure
+    - yes it's good time
+    - yess
+    - yup
+    - yeah sure
+    - yeah
+    - yasss
+    - ya
+    - we can start
+    - understood
+    - TRUEe
+    - totally
+- intent: goodbye
+  examples: |
+    - bye
+    - goodbye
+    - take care
+    - bye bye
+    - tata
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
